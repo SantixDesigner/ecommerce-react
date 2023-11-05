@@ -1,6 +1,6 @@
 import { db } from "../firebase/firebase";
 import { collection, getDocs} from "firebase/firestore";
-import FirebaseContext from "./fbContext";
+import FirebaseContext from "./FbContext";
 import { useState } from "react";
 import { addDoc } from "firebase/firestore";
 import Swal from "sweetalert2";
