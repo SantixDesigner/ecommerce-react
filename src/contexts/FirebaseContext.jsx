@@ -21,7 +21,7 @@ const FirebaseContextProvider = ({children}) => {
         addDoc(cartCollection, {cart: cart, form: form}).then((vara) => {
             Swal.fire({
                 title: 'Compra Finalizada',
-                text: `Tu codigo de seguimiento es ${vara.id}, compraste un total de ${sacarCantidad()} productos a un precio de ${sacarPrecio()}`,
+                text: `Tu codigo de seguimiento es ${vara.id}, compraste un total de ${sacarCantidad()} productos a un precio de $${sacarPrecio()}`,
                 icon: 'success',
             })
         })
