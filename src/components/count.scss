@@ -1,0 +1,26 @@
+.divs .div .agregadorYRestador{
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    p{
+        margin: 10px 10px 0px 10px;
+        font-size: 34px;
+        order: 1;
+    }
+    button:nth-child(1){
+        order: 2;
+    }
+    button:nth-child(2){
+        order: 0;
+    }
+    .but{
+        max-height: 40px;
+        display: flex;
+        align-items: center;
+        span{
+            font-size: 40px;
+            flex-direction: column;
+
+        }
+    }
+}

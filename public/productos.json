@@ -1,0 +1,42 @@
+[
+    {
+        "name":"Ryzen 5",
+        "id":1,
+        "category":"midend",
+        "description":"lorem ipsum dolor sit",
+        "stock":10,
+        "price":1500,
+        "initial":1,
+        "image":"./ryzen5.jpg"
+    },
+    {
+        "name":"Ryzen 3",
+        "id":2,
+        "category":"lowend",
+        "description":"lorem ipsum dolor sit",
+        "stock":20,
+        "price":1000,
+        "initial":1,
+        "image":"./ryzen5.jpg"
+    },
+    {
+        "name":"Ryzen 7",
+        "id":3,
+        "category":"highend",
+        "description":"lorem ipsum dolor sit",
+        "stock":15,
+        "price":3000,
+        "initial":1,
+        "image":"./ryzen5.jpg"
+    },
+    {
+        "name":"Ryzen 9",
+        "id":4,
+        "category":"ultrahighend",
+        "description":"lorem ipsum dolor sit",
+        "stock":5,
+        "price":5000,
+        "initial":1,
+        "image":"./ryzen5.jpg"
+    }
+]
