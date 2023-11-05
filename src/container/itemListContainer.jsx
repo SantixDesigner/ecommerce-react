@@ -3,7 +3,7 @@ import '../App.scss'
 import ItemList from "./itemList";
 import { useState, useEffect, useContext } from "react";
 import Loader from '../components/loader';
-import FirebaseContext from '../contexts/fbContext';
+import FirebaseContext from '../contexts/FbContext';
 const ItemListContainer = () => {
     const {getProducts, productos} = useContext(FirebaseContext)
     const [loader, setLoader] = useState(true)
