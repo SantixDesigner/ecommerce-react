@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
 import ItemDetail from "../components/itemDetail";
 import { useState, useEffect, useContext } from "react";
-import Loader from "../components/loader";
-import FirebaseContext from "../contexts/fbContext";
+import Loader from "../components/Loader";
+import FirebaseContext from "../contexts/FbContext";
 
 const ItemDetailContainer = ({ onAdd }) => {
     const {getProducts, productos} = useContext(FirebaseContext)

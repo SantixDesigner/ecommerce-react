@@ -1,7 +1,7 @@
 import './Form.scss'
 import { useContext } from 'react'
 import CartContext from '../contexts/CartContext'
-import FirebaseContext from '../contexts/fbContext'
+import FirebaseContext from '../contexts/FbContext'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 const Form = () => {

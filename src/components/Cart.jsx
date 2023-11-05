@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import CartContext from "../contexts/CartContext";
-import Loader from "./loader";
+import Loader from "./Loader";
 import './cards.scss'
 import './loader.scss'
 import { Link } from "react-router-dom";
